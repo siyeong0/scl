@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{627a6126-8639-4c8c-bd38-870c73eeb6d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generic">
+      <UniqueIdentifier>{50ecfa64-2c56-41f9-ba9a-ed4b5cffebe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{67c80e0f-1a8e-425e-a0bc-59b8e47888cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srl">
+      <UniqueIdentifier>{5f063f03-1186-4d70-8f06-128d6c087270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srl\Fragment">
+      <UniqueIdentifier>{21f19f15-76e9-499a-95d2-91a894226a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srl\Block">
+      <UniqueIdentifier>{5a0066e4-b186-4de0-ae70-62b4737c1285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srl\Chunk">
+      <UniqueIdentifier>{dd653528-1333-42da-a2ec-d2624908d8d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srl\ScanRec">
+      <UniqueIdentifier>{5bb15d37-60f0-48f8-af65-3b67d667d382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srl\ViewFrustum">
+      <UniqueIdentifier>{76914a83-e7cd-4f2b-a116-718f7aa8d3b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Math\Collision.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Constant.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\MathLib.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Quaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Generic\Common.h">
+      <Filter>Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Generic\LinkedList.hpp">
+      <Filter>Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Memory\MemPool.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Memory\Memory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Block.h">
+      <Filter>srl\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Chunk.h">
+      <Filter>srl\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Fragment.h">
+      <Filter>srl\Fragment</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScanRec.h">
+      <Filter>srl\ScanRec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ViewFrustum.h">
+      <Filter>srl\ViewFrustum</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Plane.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Generic\Common.cpp">
+      <Filter>Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\Block.cpp">
+      <Filter>srl\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Chunk.cpp">
+      <Filter>srl\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Fragment.cpp">
+      <Filter>srl\Fragment</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScanRec.cpp">
+      <Filter>srl\ScanRec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ViweFrustum.cpp">
+      <Filter>srl\ViewFrustum</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
